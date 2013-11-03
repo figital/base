@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "Base",
+  "minimum_chrome_version": "24.0.1307.0",
+  "version": "2.0",
+  "icons": {
+    "16": "img/glass-16.png",
+    "128": "img/empty-glass.png"
+  },
+  "app": {
+    "background": {
+      "scripts": ["background.js"]
+    }
+  },
+  "permissions": [
+    "webview",
+    "fullscreen",
+    "contextMenus",
+    "fileSystem"
+  ]
+}

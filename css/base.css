@@ -1,0 +1,29 @@
+
+body {
+	background-color:#ccc;
+	margin:0px;
+	padding:20px;
+	font-size:15px;
+	line-height:150%;
+	color:#666;
+	font-family:sans-serif;
+}
+
+
+h1 {
+	font-size:30px;
+	font-weight:bold;
+	color:#aaa;
+	padding:0px;
+	margin-top:10px;
+	margin-bottom:25px;
+
+	
+}
+
+#fullscreen {
+	position:absolute;
+	top:10px;
+	right:10px;
+	padding:10px;
+}
