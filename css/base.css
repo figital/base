@@ -7,6 +7,8 @@ body {
 	line-height:150%;
 	color:#666;
 	font-family:sans-serif;
+	overflow:hidden;
+
 }
 
 
@@ -35,5 +37,7 @@ h1 {
 }
 
 #url {
-	width:300px;
+	width:350px;
+	padding-left:3px;
 }
+

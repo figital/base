@@ -16,9 +16,10 @@ $(document).ready(function() {
 	});
 
 	$( "#launch" ).bind( "click", function() {
-  		console.log("launch button clicked: " + $('#url').val());
+		var url = $('#url').val();
+  		console.log("launch button clicked: " + url);
+  		openWebView(url);
 	});
-
 
 })
 

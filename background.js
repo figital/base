@@ -15,6 +15,8 @@ function runApp() {
       'width': 640,
       'height': 480
     },
-    frame: 'chrome'
+    frame: 'chrome',
+    resizable: true,
+    alwaysOnTop: false
   });
 }
