@@ -30,3 +30,6 @@ function intercept(anchor) {
 	return false;
 	
 }
+
+
+console.log("widget.js is loaded");

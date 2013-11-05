@@ -1,4 +1,5 @@
 
+
 function toggleFullScreen() {
 	if (!document.webkitFullscreenElement) {  
 		document.documentElement.webkitRequestFullscreen(Element.ALLOW_KEYBOARD_INPUT);
@@ -14,9 +15,14 @@ $(document).ready(function() {
   		toggleFullScreen();
 	});
 
+	$( "#launch" ).bind( "click", function() {
+  		console.log("launch button clicked: " + $('#url').val());
+	});
+
 
 })
 
+console.log("main.js loaded");
 
 
 
