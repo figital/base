@@ -9,3 +9,7 @@ it's just a simple empty window ...
 
 ... but the button will toggle you in and out of full screen. which is where you want to be.
 
+USAGE: (Chrome)
+* chrome://extensions
+* "Load Unpacked Extension
+* Launch
