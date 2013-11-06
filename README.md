@@ -10,6 +10,7 @@ it's just a simple empty window ...
 ... but the button will toggle you in and out of full screen. which is where you want to be.
 
 USAGE: (Chrome)
-* chrome://extensions
-* "Load Unpacked Extension
-* Launch
+* Download this code into a local folder (either zip or git clone)
+* Enter chrome://extensions into the URL bar
+* Click the "Load Unpacked Extension" button and select the local folder
+* Click the "Launch" link for this new extension
