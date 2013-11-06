@@ -21,6 +21,10 @@ $(document).ready(function() {
   		openWebView(url);
 	});
 
+	$( ".launchit" ).bind( "click", function() {
+  		launchit(this);
+	});	
+
 })
 
 console.log("main.js loaded");

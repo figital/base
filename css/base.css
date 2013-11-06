@@ -2,7 +2,7 @@
 body {
 	background-color:#ccc;
 	margin:0px;
-	padding:20px;
+	padding:0px;
 	font-size:15px;
 	line-height:150%;
 	color:#666;
@@ -23,6 +23,9 @@ h1 {
 	
 }
 
+#info {
+	margin:20px;
+}
 
 #fullscreen {
 	position:absolute;

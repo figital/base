@@ -1,14 +1,22 @@
 /* TargetAnchorInterceptor(shazbot); */
 
 defaults = {
-	height:"450px",
-	width:"650px",
+	height:"550px",
+	width:"750px",
 	top:"220px",
 	left:"150px",
 	scrollbars:true,
 	resizable:true,
 	location:"",
 	backgroundColor:"#aaa"
+}
+
+function launchit(data) {
+
+	var url = data.getAttribute('url');
+	openWebView(url);
+
+
 }
 
 function intercept(anchor) {
@@ -83,7 +91,6 @@ function openWebView(href) {
 		s.style.background = "#ccc";
 		s.style.bottom = 0;	
 		s.style.position = 'absolute';
-		s.style.float = "right";
 		s.innerHTML = "resize knob goes here";
 
 		d.appendChild(o);
@@ -91,6 +98,7 @@ function openWebView(href) {
 		document.body.appendChild(d);
 
 		$(".widge").parent().draggable({
+			containment: "window",
 			stop: function(event, ui) {
 			//console.log(ui);
 			//chrome.storage.local.setItem(ui.helper.context.id, JSON.stringify(ui.position));
