@@ -18,3 +18,5 @@ USAGE: (Chrome)
 (look it's the base of a polyhedron:)
 
 ![look it's a base](https://raw.github.com/figital/base/master/img/base-bw.png)
+
+FYI: the original "most minimal packaged app full-screen toggle demo" will wind up in the "first-base" repo ... the other <webview> experiments would be here in "base".
