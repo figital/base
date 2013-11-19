@@ -14,3 +14,7 @@ USAGE: (Chrome)
 * Enter chrome://extensions into the URL bar
 * Click the "Load Unpacked Extension" button and select the local folder
 * Click the "Launch" link for this new extension
+
+(look it's the base of a polyhedron:)
+
+![look it's a base](https://raw.github.com/figital/base/master/img/base-bw.png)
