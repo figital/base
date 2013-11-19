@@ -54,10 +54,18 @@ function intercept(anchor) {
 
 function openWebView(href) {
 
+		var k = document.createElement("div");
+		k.innerHTML = "X";
+		k.style.width = 20;
+		k.style.float = "right";
+		k.style.position = "relative";
+		k.style.right = "0px";
 
+
+		// title / header
 		var d = document.createElement("div");
 		console.log('widge says hello');
-		d.innerHTML = "<div class='widge' style='padding:8px;font-size:15px;font-weight:bold;'>" + href + "</div>";
+		//d.innerHTML = "<div class='widge' style='padding:8px;font-size:15px;font-weight:bold;'>" + href + "</div>";
 		d.style.position = "absolute";		
 		d.style.width = defaults.width;
 		d.style.height = defaults.height;
@@ -67,12 +75,18 @@ function openWebView(href) {
 		d.style.background = defaults.backgroundColor;
 		d.style.color = "white";
 
-
 		d.style.border = "2px solid #333";
 		d.style.zIndex = 1002;
 		d.style.boxShadow = "5px 5px 8px #555";		
 		d.style.overflow = "hidden";
 
+
+		var t = document.createElement("div");
+		t.className = "widge";
+		t.innerHTML = href;
+
+
+		// content window / webview
 		var o = document.createElement("webview");
 
 
@@ -82,9 +96,10 @@ function openWebView(href) {
 		o.style.border = "0px";
 		o.style.background = "#ccc";
 
+
+		// status bar
 		var s = document.createElement("div");
 
- 
 		s.style.width = "100%";
 		s.style.height = "20";
 		s.style.border = "0px";
@@ -93,6 +108,9 @@ function openWebView(href) {
 		s.style.position = 'absolute';
 		s.innerHTML = "resize knob goes here";
 
+		
+		d.appendChild(k);
+		d.appendChild(t);
 		d.appendChild(o);
 		d.appendChild(s);
 		document.body.appendChild(d);
