@@ -19,4 +19,4 @@ USAGE: (Chrome)
 
 ![look it's a base](https://raw.github.com/figital/base/master/img/base-bw.png)
 
-__FYI:__ the original "most minimal packaged app full-screen toggle demo" will wind up in the ["first-base"](https://github.com/figital/first-base) repo ... the other <webview> experiments would be here in "base". first-base will probably be an exact duplicate of Tag 1.0: https://github.com/figital/base/tree/v1.0
+__FYI:__ the original "most minimal packaged app full-screen toggle demo" is in the ["first-base"](https://github.com/figital/first-base) repo ... the other <webview> experiments would be here in "base". Try that first.
