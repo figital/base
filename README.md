@@ -20,3 +20,5 @@ USAGE: (Chrome)
 ![look it's a base](https://raw.github.com/figital/base/master/img/base-bw.png)
 
 __FYI:__ the original "most minimal packaged app full-screen toggle demo" is in the ["first-base"](https://github.com/figital/first-base) repo ... the other <webview> experiments would be here in "base". Try that first.
+
+There are a couple of notes on the wiki for this repo.
